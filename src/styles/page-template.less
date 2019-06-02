@@ -1,0 +1,30 @@
+.page-template {
+    border: 4px brown solid;
+    margin: 5px;
+    display: flex;
+
+    .page-template__menu {
+        flex: 0 0 100px;
+        border: 1px red solid;
+
+        .menu-block {
+            display: flex;
+            flex-direction: column;
+
+            .menu-block__submenu {
+                margin-left: 20px;
+            }
+        }
+
+        .active-menu-item {
+            background-color: cornflowerblue;
+            color: slategray;
+            font-weight: bold;
+        }
+    }
+
+    .page-template__content {
+        flex: 1 1 100%;
+        border: 2px greenyellow solid;
+    }
+}
